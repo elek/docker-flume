@@ -1,4 +1,4 @@
-FROM elek/hadoop
+FROM elek/hadoop:latest
 ENV CONF_DIR /opt/flume/conf
 ENV HADOOP_HOME /opt/hadoop
 ADD defaults/* defaults/
